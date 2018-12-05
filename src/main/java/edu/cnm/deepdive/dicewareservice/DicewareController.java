@@ -19,12 +19,14 @@ public class DicewareController {
   }
 
   @GetMapping(path = "/diceware", produces = MediaType.TEXT_PLAIN_VALUE)
-  public String get(@RequestParam(name = "length", defaultValue = "6") int length) {
+  public String get(
+      @RequestParam(name = "length", defaultValue = "6", required = false) int length) {
     return generator.generate(length);
   }
 
   @GetMapping(path = "/diceware", produces = MediaType.APPLICATION_JSON_VALUE)
-  public String[] getJson(@RequestParam(name = "length", defaultValue = "6") int length) {
+  public String[] getJson(
+      @RequestParam(name = "length", defaultValue = "6", required = false) int length) {
     return get(length).split("\\s+");
   }
 

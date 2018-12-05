@@ -16,7 +16,7 @@
         "parameters" : [ {
           "name" : "length",
           "in" : "query",
-          "required" : true,
+          "required" : false,
           "type" : "integer",
           "format" : "int32"
         } ],

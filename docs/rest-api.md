@@ -61,7 +61,7 @@ Example of generating documentation from Spring MVC annotations
 <tr>
     <th>length</th>
     <td>query</td>
-    <td>yes</td>
+    <td>no</td>
     <td></td>
     <td> - </td>
 
