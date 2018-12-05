@@ -1,0 +1,37 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "Example of generating documentation from Spring MVC annotations",
+    "version" : "v1",
+    "title" : "Swagger documentation for Diceware example"
+  },
+  "host" : "localhost:18381",
+  "basePath" : "/rest",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/diceware" : {
+      "get" : {
+        "operationId" : "getJson",
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "length",
+          "in" : "query",
+          "required" : true,
+          "type" : "integer",
+          "format" : "int32"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "type" : "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
