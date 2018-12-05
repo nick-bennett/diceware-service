@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Class-Path: jboss-logging-3.3.2.Final.jar logback-core-1.2.3.jar sprin
+ g-expression-5.0.9.RELEASE.jar tomcat-embed-el-8.5.34.jar commons-cod
+ ec-1.11.jar jackson-module-parameter-names-2.9.6.jar spring-context-5
+ .0.9.RELEASE.jar spring-security-web-5.0.8.RELEASE.jar spring-boot-st
+ arter-tomcat-2.0.5.RELEASE.jar spring-security-core-5.0.8.RELEASE.jar
+  classmate-1.3.4.jar jackson-mapper-asl-1.9.13.jar javax.annotation-a
+ pi-1.3.2.jar jackson-datatype-jsr310-2.9.6.jar spring-beans-5.0.9.REL
+ EASE.jar spring-boot-starter-json-2.0.5.RELEASE.jar slf4j-api-1.7.25.
+ jar spring-aop-5.0.9.RELEASE.jar logback-classic-1.2.3.jar spring-web
+ mvc-5.0.9.RELEASE.jar spring-web-5.0.9.RELEASE.jar spring-core-5.0.9.
+ RELEASE.jar log4j-to-slf4j-2.10.0.jar google-http-client-jackson2-1.2
+ 3.0.jar spring-security-config-5.0.8.RELEASE.jar jackson-annotations-
+ 2.9.0.jar tomcat-embed-websocket-8.5.34.jar google-api-client-1.23.0.
+ jar log4j-api-2.10.0.jar hibernate-validator-6.0.12.Final.jar jackson
+ -core-2.9.6.jar jackson-databind-2.9.6.jar httpclient-4.5.6.jar googl
+ e-oauth-client-1.23.0.jar spring-jcl-5.0.9.RELEASE.jar google-http-cl
+ ient-1.23.0.jar validation-api-2.0.1.Final.jar diceware.jar snakeyaml
+ -1.19.jar jackson-core-asl-1.9.13.jar spring-boot-2.0.5.RELEASE.jar s
+ pring-boot-starter-2.0.5.RELEASE.jar spring-boot-starter-security-2.0
+ .5.RELEASE.jar guava-jdk5-17.0.jar tomcat-embed-core-8.5.34.jar jacks
+ on-datatype-jdk8-2.9.6.jar spring-security-oauth2-2.3.3.RELEASE.jar s
+ pring-boot-starter-logging-2.0.5.RELEASE.jar spring-boot-starter-web-
+ 2.0.5.RELEASE.jar httpcore-4.4.10.jar spring-boot-autoconfigure-2.0.5
+ .RELEASE.jar jul-to-slf4j-1.7.25.jar jsr305-1.3.9.jar
+Main-Class: edu.cnm.deepdive.dicewareservice.DicewareServiceApplicatio
+ n
+
